@@ -1,0 +1,6 @@
+.wrapper{
+  display: flex;
+  max-width: 1800px;
+  margin: 0 auto;
+  flex-direction: column;
+}

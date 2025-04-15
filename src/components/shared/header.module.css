@@ -1,0 +1,29 @@
+.head{
+    display: flex;
+    margin:30px 0;
+    justify-content: space-between;
+}
+.partone{
+    display: flex;
+}
+.inp{
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-left: 60px;
+    width: 460px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+}
+.f{
+    position: relative;
+    cursor:pointer;
+    margin-top:10px;
+}
+.vector{
+    position: absolute;
+    left: 100px;
+    width: 20px;
+    top:20px
+}

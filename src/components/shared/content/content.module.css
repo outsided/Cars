@@ -1,0 +1,54 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap:20px;
+}
+.head{
+    margin:40px 0;
+    font-size: 40px;
+    font-weight:bold;
+    color: white;
+}
+.img{
+    width:420px;
+    height: 300px;
+    padding-top:10px ;
+}
+.card{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid white;
+    padding: 1px;
+    flex-direction: column;
+    width:420px;
+    height:490px;
+    border-radius: 20px;
+    color:white;
+    position: relative;
+}
+.titleDisc{
+    position: absolute;
+    top:200px;
+    bottom:0px;
+    display: flex;
+    width: 380px;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.disc{
+    font-size: 14px;
+    align-self: center;
+}
+.lowcard{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
