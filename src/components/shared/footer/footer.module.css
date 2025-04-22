@@ -1,13 +1,13 @@
-.footer{
-    display: flex;
-    justify-content: center;
-    margin:80px;
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 80px;
 }
-.ul{
-    display: flex;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    gap:40px;
-    list-style: none;
+.ul {
+  display: flex;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  gap: 25px;
+  list-style: none;
 }
