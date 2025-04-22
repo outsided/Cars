@@ -19,7 +19,6 @@
     display:flex;
     justify-content: space-between;
     border:1px solid white;
-    padding: 1px;
     flex-direction: column;
     width:420px;
     height:490px;

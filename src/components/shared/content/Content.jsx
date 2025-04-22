@@ -9,7 +9,7 @@ export default function Content(){
             </div>
             <div className={style.content}>
             {dataContent.map(item => 
-            <div className={style.card}>
+            <div key={item.id} className={style.card}>
                 <img src={item.img} alt='qwe'></img>
                 <div className={style.titleDisc}>
                     <div className={style.title}>{item.title}</div>

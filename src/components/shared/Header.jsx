@@ -1,7 +1,7 @@
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 import style from './header.module.css'
 import Cabinet from './cab/Cabinet'
-import vector from '../../assets/Vector.png'
+import vector from '../../assets/Vector.svg'
 
 
 export default function Header(){

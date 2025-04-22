@@ -1,21 +1,20 @@
-import law from '../../../assets/law.png';
-import profile from '../../../assets/profile.png';
-import charger from '../../../assets/charger.png';
-import rubric from '../../../assets/rubric.png';
+import profile from '../../../assets/pcab.svg'
+import calk from '../../../assets/calk.svg'
+import same from '../../../assets/same.svg'
 
 const dataImage = [
-    {
-        id:1,
-        img:profile
-    },{
-        id:2,
-        img: charger
-    },{
-        id:3,
-        img:law
-    },{
-        id:4,
-        img:rubric
-    }
-]
+  {
+    id: 1,
+    img: profile,
+  },
+  {
+    id: 2,
+    img: calk,
+  },
+  {
+    id: 3,
+    img: same,
+  },
+
+];
 export {dataImage};
