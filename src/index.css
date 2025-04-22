@@ -1,8 +1,9 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto Flex", sans-serif;
 }
-#root{
-    background-color: rgba(45, 47, 52, 1);
+#root {
+  background-color: rgba(45, 47, 52, 1);
 }

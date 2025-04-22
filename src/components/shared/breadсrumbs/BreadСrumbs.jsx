@@ -1,11 +1,9 @@
-
-import Testt from './Testt'
-const breadCrumbs =() =>{
-    return(
+import Testt from "./Testt";
+const breadCrumbs = () => {
+  return (
     <div>
-          <Testt />
+      <Testt />
     </div>
-      
-    )
-}   
+  );
+};
 export default breadCrumbs;

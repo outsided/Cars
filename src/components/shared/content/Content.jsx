@@ -1,27 +1,25 @@
-import style from './content.module.css'
-import {dataContent} from './dataContent'
-export default function Content(){
-
-    return(
-        <div >
-            <div className={style.head}>
-                Новости и анонсы
+import style from "./content.module.css";
+import { dataContent } from "./dataContent";
+export default function Content() {
+  return (
+    <main>
+        <h1 className={style.h1}>Новости и анонсы</h1>
+      <div className={style.content}>
+        {dataContent.map((item) => (
+          <div key={item.id} className={style.card}>
+            <img src={item.img} alt="qwe"></img>
+            <div className={style.titleDisc}>
+              <h3 className={style.title}>{item.title}</h3>
+              <p className={style.disc}>{item.description}</p>
             </div>
-            <div className={style.content}>
-            {dataContent.map(item => 
-            <div key={item.id} className={style.card}>
-                <img src={item.img} alt='qwe'></img>
-                <div className={style.titleDisc}>
-                    <div className={style.title}>{item.title}</div>
-                    <div className={style.disc}>{item.description}</div>
-                </div>
-                
-                <div className={style.lowcard}>
-                    <span>{item.name}</span>
-                    <span>{item.data}</span>
-                </div>
-            </div>)}
-             </div>
-        </div>
-    );
+
+            <div className={style.lowcard}>
+              <p>{item.name}</p>
+              <p>{item.data}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </main>
+  );
 }

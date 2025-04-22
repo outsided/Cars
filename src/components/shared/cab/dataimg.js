@@ -1,6 +1,6 @@
-import profile from '../../../assets/pcab.svg'
-import calk from '../../../assets/calk.svg'
-import same from '../../../assets/same.svg'
+import profile from "../../../assets/pcab.svg";
+import calk from "../../../assets/calk.svg";
+import same from "../../../assets/same.svg";
 
 const dataImage = [
   {
@@ -15,6 +15,5 @@ const dataImage = [
     id: 3,
     img: same,
   },
-
 ];
-export {dataImage};
+export { dataImage };

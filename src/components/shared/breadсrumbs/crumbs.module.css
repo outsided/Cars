@@ -1,21 +1,21 @@
-.breadcrumbs{
-    display: flex;
-        flex-wrap: nowrap;
-    margin-top: 30px;
-    color: white;
-    font-size: 25px;
+.breadcrumbs {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+  color: white;
+  font-size: 25px;
 }
-.bread{
-    align-items: center;
-    padding-right:100px;
+.bread {
+  align-items: center;
+  padding-right: 50px;
+  font-weight: 600;
 }
-.spa{
-    margin: 15px;
+.spa {
+  margin: 15px;
 }
-.line{
-    flex-direction: row-reverse;
-    width:75%;
-    border:1px solid white;
-    align-self: center;
+.line {
+  flex-direction: row-reverse;
+  width: 75%;
+  border: 1px solid white;
+  align-self: center;
 }
-
