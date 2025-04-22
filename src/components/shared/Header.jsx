@@ -5,7 +5,7 @@ import vector from "../../assets/Vector.svg";
 
 export default function Header() {
   return (
-    <div className={style.head}>
+    <header className={style.head}>
       <div className={style.partone}>
         <img src={logo} alt="logo"></img>
         <form className={style.f}>
@@ -18,6 +18,6 @@ export default function Header() {
         </form>
       </div>
       <Cabinet />
-    </div>
+    </header>
   );
 }
